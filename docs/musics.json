@@ -1,5 +1,4 @@
 [
-  // 因为在打包的时候musics.json被放到docs文件夹下运行，因此要再上一个目录，而不是基于现有的目录
   {
     "title": "Aloud",
     "artist": "洛天依Official",
