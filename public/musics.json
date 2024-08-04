@@ -2,7 +2,7 @@
   {
     "title": "Aloud",
     "artist": "洛天依Official",
-    "src": "../misc/Aloud.mp3",
+    "src": "./Aloud.mp3",
     "pic": "./musiccovers/vsinger1.png"
   },
   {
