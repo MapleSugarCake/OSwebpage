@@ -32,7 +32,7 @@
               <div class=" tw-w-full tw-h-full" v-if="selected_tag === 'Profile'">
                 <div ref="overall_page" class="tw-w-full tw-h-full tw-items-center tw-flex tw-flex-col" style="text-align:center" v-if="selected_tag_2 ==='About Me'">
                   <div class=" tw-w-20 tw-h-20 tw-rounded-full tw-overflow-hidden tw-mt-16">
-                    <img src="../../assets/images/MapleSugarCake.jpg" alt="" class="tw-bg-red-500">
+                    <img src="../../assets/images/maplesugarcake.jpg" alt="" class="tw-bg-red-500">
                   </div>
                   <div class="tw-mt-3 tw-text-gray-400">MapleSugarCake</div>
                   <div class="tw-text-xl tw-mt-2 tw-tracking-wide"> This is MapleSugarCake,a Network security learner.</div>
