@@ -29,7 +29,7 @@ const routes = [
     name: "DesktopWithPost",
     component: Desktop,
     meta : {
-      title:"Welcom to WEN's blog"
+      title:"Welcom to Maple's blog"
     }
   },
   {
@@ -37,7 +37,7 @@ const routes = [
     name: "Desktop",
     component: Desktop,
     meta : {
-      title:"Welcom to WEN's blog"
+      title:"Welcom to Maple's blog"
     }
   },
   {
