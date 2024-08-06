@@ -15,11 +15,11 @@
       </div>
       <div ref="middle" class="tw-w-full tw-h-20 tw-flex-grow tw-flex  tw-flex-col tw-justify-center tw-items-center  tw-z-10" style="min-height:300px">
         <div class="tw-w-72 tw-h-40 tw-rounded-xl tw-flex tw-flex-col tw-flex-nowrap" style="background-color:rgba(81,90,156)" v-if="show_middle">
-          <div class="tw-h-10 tw-flex 
+          <div class="tw-h-10 tw-flex
           tw-justify-center tw-items-end ">
             <div class="tw-h-full " style="width:31%">
               <div class="ratio-container">
-                <div class="ratio-content tw-rounded-lg 
+                <div class="ratio-content tw-rounded-lg
                 tw-bg-center
                 tw-bg-cover" :style="{ backgroundImage: 'url(' + require('@/assets/images/avatar.jpg') + ')' }">
                 </div>
@@ -61,8 +61,8 @@
         </div>
       </div>
     </div>
-    
-    
+
+
   </div>
 </template>
 
@@ -90,9 +90,9 @@ export default {
       date_date:1,
       date_weekday:0,
       // user_name:"Observer",
-      user_name:"Guest",
-      password:"12345678",
-      password_answer:"12345678",
+      user_name:"MapleSugarCake",
+      password:"Miku",
+      password_answer:"Miku",
       relay:false,
       show_loading_bar:false,
       button_shaking:false,
@@ -204,7 +204,7 @@ export default {
       if ((!this.login_locked) && keykey.length === 1) {
         let cur = this.$refs.password_input_bar.selectionStart
         this.password = this.password.substr(0,cur) + keykey + this.password.substr(cur,this.password.length - cur)
-      }   
+      }
     },
     show_keyboard_clicked(){
       this.show_keyboard = !this.show_keyboard
@@ -222,7 +222,7 @@ export default {
         return
       } else {
         this.show_middle_clicked()
-      } 
+      }
     },
     refresh_time() {
       let date = new Date();
@@ -272,17 +272,17 @@ export default {
 }
 
 :-moz-placeholder { /* Firefox 18- */
-  text-align: center;  
+  text-align: center;
   color:rgba(235,235,235,.8);
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  text-align: center;  
+  text-align: center;
   color:rgba(235,235,235,.8);
 }
 
-:-ms-input-placeholder {  
-  text-align: center; 
+:-ms-input-placeholder {
+  text-align: center;
   color:rgba(235,235,235,.8);
 }
 
